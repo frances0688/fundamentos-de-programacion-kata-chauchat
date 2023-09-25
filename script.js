@@ -10,7 +10,7 @@ let cargador = [
 
 function chauchat(arr){
     let ramita = Math.random();
-    if (ramita > 0.8) {
+    if (ramita < 0.8) {
         return console.log("Illo, me he quedao pillá!");
     }
     for (i=0; i<arr.length; i++) {
